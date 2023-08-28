@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const distancia = prompt('Distancia en Kilometros', '');
+        if(distancia <= 1000) {
+            console.log('pie')
+            document.write('pie')
+        } else if(distancia <= 10000) {
+            console.log('bicicleta')
+            document.write('bicicleta')
+        } else if(distancia <= 30000) {
+            console.log('colectivo')
+            document.write('colectivo')
+        } else if(distancia <= 100000){
+            console.log('auto')
+            document.write('auto')
+        } else {
+            console.log('avion')
+            document.write('avion')
+        }
+    </script>
+</body>
+</html>
